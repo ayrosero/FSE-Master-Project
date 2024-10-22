@@ -4,9 +4,14 @@
 global key
 InitKeyboard();
 
-%Right motor in D
-%Left motor in A
-%Arm in B
+% Right motor in D
+% Left motor in A
+% Arm in B
+
+% Controls:
+% Arrow keys to move
+% i, k to raise and lower arm
+% q to end
 
 while 1
     pause(0.1);
