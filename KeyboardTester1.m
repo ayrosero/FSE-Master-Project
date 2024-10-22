@@ -1,0 +1,43 @@
+% This is just the basic driving module.
+
+global key
+InitKeyboard();
+
+%Right motor in D
+%Left motor in A
+%Arm in B
+
+while 1
+    pause(0.1);
+    switch key
+        case 'uparrow'
+                % Move forwards
+                brick.MoveMotor('D', 100);
+                brick.MoveMotor('A', 100);
+        case 'downarrow'
+                % Move backwards
+                brick.MoveMotor('D', -100);
+                brick.MoveMotor('A', -100);
+        case 'leftarrow'
+            % Turn left
+            brick.MoveMotor('D', 80);
+            brick.MoveMotor('A', -80);
+        case 'rightarrow'
+            % Turn right
+            brick.MoveMotor('D', -80);
+            brick.MoveMotor('A', 80);
+        case 0
+            brick.StopMotor('D');
+            brick.StopMotor('A');
+            brick.StopMotor('B');
+        case 'i'
+            % Raise arm
+            brick.MoveMotor('B', -10);
+        case 'k'
+            % Lower arm
+            brick.MoveMotor('B', 10);
+        case 'q'
+            break;
+    end
+end
+CloseKeyboard();
