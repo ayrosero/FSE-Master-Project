@@ -1,4 +1,5 @@
 % This is just the basic driving module.
+% No sensors or logic yet. This is for Implementation 1, which is just the main body.
 
 global key
 InitKeyboard();
