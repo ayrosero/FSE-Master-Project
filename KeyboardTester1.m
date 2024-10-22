@@ -12,13 +12,13 @@ while 1
     pause(0.1);
     switch key
         case 'uparrow'
-                % Move forwards
-                brick.MoveMotor('D', 100);
-                brick.MoveMotor('A', 100);
+            % Move forwards
+            brick.MoveMotor('D', 100);
+            brick.MoveMotor('A', 100);
         case 'downarrow'
-                % Move backwards
-                brick.MoveMotor('D', -100);
-                brick.MoveMotor('A', -100);
+            % Move backwards
+            brick.MoveMotor('D', -100);
+            brick.MoveMotor('A', -100);
         case 'leftarrow'
             % Turn left
             brick.MoveMotor('D', 80);
