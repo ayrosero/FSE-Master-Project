@@ -7,7 +7,9 @@ Implementation 1: Main Body - 10/22
 ## Programs guide:  
 ConnectToEV3.m -- Connect script. Make sure that the brick is renamed to '73827GROUP4' before using bluetooth.  
 KeyboardTester1.m -- Basic manual driving script. No sensors, just control driving and arm movement.  
-KeyboardTester3Sensors.m -- Has *some* sensor code. **WORK IN PROGRESS!!!** Check the files in Canvas for how to collect data from sensors.
+KeyboardTester3Sensors.m -- Has *some* sensor code. **WORK IN PROGRESS!!!** Check the files in Canvas for how to collect data from sensors.  
+
+FirstTry.m -- First official no-manual controls attempt. **WORK IN PROGRESS!!!**  
 
 ## PDFs key:  
 Personal Machine Software Install-1.pdf -- This is for downloading the required software. Look at this first.  
