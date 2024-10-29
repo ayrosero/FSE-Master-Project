@@ -10,6 +10,7 @@ KeyboardTester1.m -- Basic manual driving script. No sensors, just control drivi
 KeyboardTester3Sensors.m -- Has *some* sensor code. **WORK IN PROGRESS!!!** Check the files in Canvas for how to collect data from sensors.  
 
 FirstTry.m -- First official no-manual controls attempt. **WORK IN PROGRESS!!!**  
+SecondTry.m -- Second official update. Has some code for the color sensors and touch sensor, but no distance sensor yet. **WIP!!!**  
 
 ## PDFs key:  
 Personal Machine Software Install-1.pdf -- This is for downloading the required software. Look at this first.  
